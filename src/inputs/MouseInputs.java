@@ -17,7 +17,8 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        System.out.println("Mouse  Clicked");
+
+
     }
 
     @Override
@@ -47,6 +48,6 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        gamePanel.setImagePos(e.getX(),e.getY());
+
     }
 }
